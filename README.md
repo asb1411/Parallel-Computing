@@ -9,4 +9,5 @@ The file name and the wordlist are taken as command line arguments.
 Compile: mpicc search_parallel.c
 
 Execute: mpiexec -n N search_parallel.exe "filename.txt" "AND/OR" word1 word2...
+
 N = number of proessors/workers desired
